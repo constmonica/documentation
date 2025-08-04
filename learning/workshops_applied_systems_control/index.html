@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta content="This workshop provides an introduction to applied systems control, focusing on practical applications and real-world scenarios. Participants will learn about various control systems, their design, and implementation." name="description" />
+<meta content="This workshop provides an introduction to applied systems control, focusing on practical applications and real-world scenarios. Participants will learn about various control systems, their design and implementation." name="description" />
 
     <title>Applied Systems Control Workshop &#8212; System Level Documentation  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=8e8a900e" />
@@ -99,7 +99,7 @@
 <li><a class="reference internal" href="#common-control-strategies">Common control strategies</a></li>
 <li><a class="reference internal" href="#introduction-to-pwm-control"><strong>Introduction to PWM control</strong></a></li>
 <li><a class="reference internal" href="#introduction-to-pid-control">Introduction to PID control</a></li>
-<li><a class="reference internal" href="#introduction-to-the-ad-swiot1l-sl-board">Introduction to the AD-SWIOT1L-SL board</a></li>
+<li><a class="reference internal" href="#ad-swiot1l-sl-board-overview">AD-SWIOT1L-SL Board Overview</a></li>
 <li><a class="reference internal" href="#hands-on-activity">Hands-on activity</a></li>
 <li><a class="reference internal" href="#slide-deck-and-booklet">Slide Deck and Booklet</a></li>
 <li><a class="reference internal" href="#workshop-takeaways">Workshop Takeaways</a></li>
@@ -404,7 +404,7 @@ Content on this topic
 <h1>Applied Systems Control Workshop<a class="headerlink" href="#applied-systems-control-workshop" title="Link to this heading"></a></h1>
 <section id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
-<p>This workshop provides an introduction to applied systems control, focusing on practical applications and real-world scenarios. Participants will learn about various control systems, their design, and implementation.</p>
+<p>This workshop provides an introduction to applied systems control, focusing on practical applications and real-world scenarios. Participants will learn about various control systems, their design and implementation.</p>
 </section>
 <section id="theoretical-content">
 <h2>Theoretical content<a class="headerlink" href="#theoretical-content" title="Link to this heading"></a></h2>
@@ -412,7 +412,7 @@ Content on this topic
 <li><p>Overview of industrial control and automation systems</p></li>
 <li><p>Introduction to PWM control</p></li>
 <li><p>Introduction to PID control</p></li>
-<li><p>Introduction the AD-SWIOT1L-SL board</p></li>
+<li><p>AD-SWIOT1L-SL Board Overview</p></li>
 </ul>
 <a class="reference internal image-reference" href="../../_images/industrial.png"><img alt="../../_images/industrial.png" class="align-right" src="../../_images/industrial.png" style="width: 500px;" />
 </a>
@@ -520,8 +520,8 @@ PID control works by continuously calculating the error and applying a correctio
 <a class="reference internal image-reference" href="../../_images/pid_2.jpg"><img alt="../../_images/pid_2.jpg" class="align-center" src="../../_images/pid_2.jpg" style="width: 550px;" />
 </a>
 </section>
-<section id="introduction-to-the-ad-swiot1l-sl-board">
-<h2>Introduction to the AD-SWIOT1L-SL board<a class="headerlink" href="#introduction-to-the-ad-swiot1l-sl-board" title="Link to this heading"></a></h2>
+<section id="ad-swiot1l-sl-board-overview">
+<h2>AD-SWIOT1L-SL Board Overview<a class="headerlink" href="#ad-swiot1l-sl-board-overview" title="Link to this heading"></a></h2>
 <p>The AD-SWIOT1L-SL board is a versatile platform designed for industrial control applications. It features a range of components that facilitate the implementation of control strategies, including PWM and PID control.</p>
 <figure class="align-center" id="id1">
 <a class="reference internal image-reference" href="../../_images/swiot.jpg"><img alt="AD-SWIOT1L-SL board" src="../../_images/swiot.jpg" style="width: 400px;" />
@@ -542,21 +542,31 @@ PID control works by continuously calculating the error and applying a correctio
 <li><p>Industry standard form factor for DIN rail installation</p></li>
 <li><p>Open-source hardware design and software stack</p></li>
 </ul>
-<div class="grid" style="grid-template-columns: 50% 50%;"></div><a class="reference internal image-reference" href="../../_images/block_diagram.png"><img alt="AD-SWIOT1L-SL block diagram" src="../../_images/block_diagram.png" style="width: 500px;" />
+<div class="grid" style="grid-template-columns: 50% 50%;"><figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../../_images/block_diagram.png"><img alt="AD-SWIOT1L-SL block diagram" src="../../_images/block_diagram.png" style="width: 500px;" />
 </a>
+<figcaption>
+<p><span class="caption-number">Figure 2 </span><span class="caption-text">AD-SWIOT1L-SL Block Diagram</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/board_design.png"><img alt="AD-SWIOT1L-SL board design" src="../../_images/board_design.png" style="width: 500px;" />
 </a>
-<p><strong>Kit contents</strong></p>
+<figcaption>
+<p><span class="caption-number">Figure 3 </span><span class="caption-text">AD-SWIOT1L-SL Board Design</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div><p><strong>Kit contents</strong></p>
 <p>1 x 10BASE-T1L TO USB adapter board</p>
 <p>1 x Profibus cable for single pair ethernet (SPE) Connectivity</p>
 <p>1 x USB 2.0 cable</p>
 <p>1 x cable connector for external 24V power supply</p>
 <p>1 x cable connector for channels connectivity</p>
-<figure class="align-center" id="id2">
+<figure class="align-center" id="id4">
 <a class="reference internal image-reference" href="../../_images/kit.png"><img alt="AD-SWIOT1L-SL kit contents" src="../../_images/kit.png" style="width: 500px;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Figure 2 </span><span class="caption-text">AD-SWIOT1L-SL kit contents</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+<p><span class="caption-number">Figure 4 </span><span class="caption-text">AD-SWIOT1L-SL kit contents</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -586,11 +596,11 @@ PID control works by continuously calculating the error and applying a correctio
 </ol>
 <a class="reference internal image-reference" href="../../_images/code1.jpg"><img alt="Channel configuration code" class="align-center" src="../../_images/code1.jpg" style="width: 600px;" />
 </a>
-<figure class="align-center" id="id3">
+<figure class="align-center" id="id5">
 <a class="reference internal image-reference" href="../../_images/system.jpg"><img alt="System setup" src="../../_images/system.jpg" style="width: 600px;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Figure 3 </span><span class="caption-text">System setup</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+<p><span class="caption-number">Figure 5 </span><span class="caption-text">System setup</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
