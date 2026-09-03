@@ -59,6 +59,12 @@ interref_repos = [
     'adi_ros2/humble/adi_meta',
 ]
 
+# Fork preview only -- revert before opening an upstream PR.
+# Sparse (pull_request) builds append this project's own name to interref_repos,
+# but it is published as 'system-level', so fetching the 'documentation'
+# inventory 404s and sphinx-build.sh turns that lone warning into a failure.
+repository = 'system-level'
+
 # -- Options for HTML output --------------------------------------------------
 
 html_theme = 'cosmic'
