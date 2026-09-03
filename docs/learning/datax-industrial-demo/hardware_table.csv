@@ -1,0 +1,10 @@
+Component                , Role                                                                            , Quantity
+Raspberry Pi 4+          , Running Kuiper 2 to connect to downstream devices.                               ,        1
+AD-RPI-T1LPSE-SL         , T1L capable board that can also power downstream devices.                        ,        1
+AD-SWIOT1L-SL            , Software-defined I/O with T1L connectivity                                       ,        1
+AD-APARDPFW-SL           , Power forwarding board with T1L capabilities.                                    ,        1
+AD-APARDSPOE-SL          , 10BASE-T1L power extractor with Single Pair Power over Ethernet                  ,        1
+AD-APARD32690-SL Rev. E  , Platform for prototyping secure and connected industrial field devices           ,        2
+Rpi 4 + EVAL-CN0575-RPIZ , 10BASE-T1L MAC/PHY interface with Single Pair Power over Ethernet                ,        1
+AD-ADXL355-PMDZ          , Three-axis MEMS accelerometer used for the vibration monitoring panel.           ,        1
+TCS34725 color sensor    , Color sensor used to detect and sort the cubes on the conveyor belt.             ,        1
